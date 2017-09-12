@@ -1,9 +1,0 @@
-package Mavenclass;
-
-import org.testng.annotations.Test;
-
-public class mexampletest {
-  @Test
-  public void f() {
-  }
-}

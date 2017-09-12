@@ -1,9 +1,0 @@
-log4j.logger.example10.mypack.PracticeSwitchWindow=INFO, LOG_FILE
-
-log4j.appender.LOG_FILE = org.apache.log4j.RollingFileAppender
-log4j.appender.LOG_FILE.MaxBackupIndex=5
-log4j.appender.LOG_FILE.MaxFileSize=100MB
-log4j.appender.LOG_FILE.File = D:\\workspace\\example10\\src\\main\\java\\mypack.selenium.logs
-log4j.appender.LOG_FILE.Append = true
-log4j.appender.LOG_FILE.layout = org.apache.log4j.PatternLayout
-log4j.appender.LOG_FILE.layout.ConversionPattern = %d{yyyy-MM-dd HH:mm:ss} %c{1} [%p] %m%n
