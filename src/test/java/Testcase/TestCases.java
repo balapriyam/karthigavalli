@@ -1,6 +1,8 @@
 package Testcase;
 
-import org.testng.annotations.*;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
 import candidatepages.Delete;
 import candidatepages.Features;
 import candidatepages.Fetch;
